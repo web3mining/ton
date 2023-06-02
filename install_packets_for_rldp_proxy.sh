@@ -8,7 +8,6 @@ apt-get install -y systemd
 
 rm /var/www/html/index.nginx-debian.html
 cp html_ton/index.html /var/www/html/index.nginx-debian.html
-cp html_ton/qr_ton.jpg /var/www/html/
 
 mkdir -p /var/cache/swap/
 dd if=/dev/zero of=/var/cache/swap/swap0 bs=64M count=64
